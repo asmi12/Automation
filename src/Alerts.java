@@ -20,6 +20,7 @@ public class Alerts {
 		driver.findElement(By.cssSelector("#confirmbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
+		System.out.println("hello");
 
 		
 		

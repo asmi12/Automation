@@ -20,6 +20,13 @@ public class ActionsDemo {
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("mobile").doubleClick().build().perform();
 		//moves to specific element
 		a.moveToElement(move).contextClick().build().perform();
+		System.out.println("HIII");
+		System.out.println("Byeee");
+		System.out.println("Hello");
+		System.out.println("TATT");
+		
+		System.out.println("HIII");
+		System.out.println("Byeee");
 		
 		
 		
