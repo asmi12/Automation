@@ -21,7 +21,7 @@ public class Assignment2 {
 		driver.findElement(By.name("bday")).sendKeys("02/06/1996");
 		driver.findElement(By.cssSelector(".btn-success")).click();
 		System.out.println(driver.findElement(By.cssSelector(".alert-success")).getText());
-		
+		System.out.println("Completed");
 		
 		
 	}

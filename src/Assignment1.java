@@ -18,6 +18,12 @@ public class Assignment1 {
 		//print count
 		driver.findElements(By.xpath("//input[@type='checkbox']")).size();
 		System.out.println(driver.findElements(By.xpath("//input[@type='checkbox']")).size());
-	}
+		System.out.println("Comple Assignment");
 
+		System.out.println("Comple Assignment2");
+		System.out.println("Comple Assignment3");
+		System.out.println("Comple Assignment4");
+		System.out.println("Comple Assignment5");
+
+}
 }
