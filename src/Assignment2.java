@@ -22,6 +22,7 @@ public class Assignment2 {
 		driver.findElement(By.cssSelector(".btn-success")).click();
 		System.out.println(driver.findElement(By.cssSelector(".alert-success")).getText());
 		System.out.println("Completed");
+		System.out.println("Completed task");
 		
 		
 	}
